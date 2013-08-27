@@ -4,6 +4,7 @@ gem 'rails', '3.2.13'
 gem 'jquery-rails'
 
 group :production do
+		gem 'thin'
 	gem 'pg'
 end
 
